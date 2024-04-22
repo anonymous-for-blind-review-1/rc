@@ -1,0 +1,13 @@
+{
+	"link_routing" : "manhattan",
+	"link_latency_type" : "constant",
+	"link_latency" : 1,
+	"link_power_type" : "constant",
+	"link_power" : 0.002,
+	"packaging_yield" : 0.9,
+	"is_active" : false,
+	"latency_irouter" : NaN,
+	"power_irouter" : NaN,
+	"has_interposer" : true,
+	"interposer_technology" : "tech_3"
+}

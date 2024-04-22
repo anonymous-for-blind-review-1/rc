@@ -1,0 +1,10 @@
+{
+	"link_routing" : "manhattan",
+	"link_latency_type" : "constant",
+	"link_latency" : 1,
+	"link_power_type" : "function",
+	"link_power" : "lambda l : 0.001 * l",
+	"packaging_yield" : 0.9,
+	"is_active" : false,
+	"has_interposer" : false
+}

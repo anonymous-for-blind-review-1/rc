@@ -1,0 +1,13 @@
+{
+	"link_routing" : "manhattan",
+	"link_latency_type" : "function",
+	"link_latency" : "lambda l : l / 2",
+	"link_power_type" : "function",
+	"link_power" : "lambda l : 0.001 * l",
+	"packaging_yield" : 0.9,
+	"is_active" : true,
+	"latency_irouter" : 5,
+	"power_irouter" : 0.25,
+	"has_interposer" : true,
+	"interposer_technology" : "tech_3"
+}
