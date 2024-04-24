@@ -232,7 +232,8 @@ def plot_case_study_results():
 		x["throughput_rev"] = 1 / x["throughput"]
 	results_tmp = []
 	# Remove close-to-identical entries to avoid having 64k lines in the same plot which crashes my pdf viewer
-	keys = ["area","power","cost","latency","throughput_rev"]
+	# Keys to be used in point reduction (use real Throughput)
+	keys = ["area","power","cost","latency","throughput"]
 	max_values = {key : max([x[key] for x in results]) for key in keys}
 	round_values = {key : -1 if max_values[key] >= 100 else (0 if max_values[key] >= 10 else 1) for key in keys}
 	res_as_tuples = [tuple([round(x[key], round_values[key]) for key in keys]) for x in results]
@@ -241,6 +242,8 @@ def plot_case_study_results():
 		if res_as_tuples[i] not in unique_design_points or i == len(results) - 1:
 			unique_design_points.append(res_as_tuples[i])
 			results_tmp.append(results[i])
+	# Keys to be used in real plot (use reverse Throughput)
+	keys = ["area","power","cost","latency","throughput_rev"]
 	print("Reducing %d to %d unique design points" % (len(results), len(results_tmp)))
 	results = results_tmp
 	# Find the 1D and 2D Torus Points
