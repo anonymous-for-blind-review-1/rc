@@ -257,7 +257,9 @@ def plot_case_study_results():
 	tmp_tp, tmp_lat  = float("inf"), float("inf")
 	tp_idx, lat_idx = None, None
 	for (idx, d) in enumerate(results):
-		if d["area"] <= (min_area * 1.1) and d["throughput_rev"] < tmp_tp: # Reverse TP
+		# We enforce that we don't choose the same topology as the 2D torus.
+		# Both come with the same throughput and if we don't enforce this, then, depending on some randomness, either one could be chosen here.
+		if d["area"] <= (min_area * 1.1) and d["throughput_rev"] < tmp_tp and idx != _2d_torus_idx[0]: # Reverse TP
 			tmp_tp = d["throughput_rev"]
 			tp_idx = idx
 		if d["area"] <= (min_area * 1.4) and d["latency"] < tmp_lat:
