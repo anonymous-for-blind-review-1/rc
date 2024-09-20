@@ -1,0 +1,40 @@
+{
+	"chiplets" : [
+		{"position" : {"x" : 11, "y" : 8}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 11, "y" : 14}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 11, "y" : 20}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 11, "y" : 26}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 17, "y" : 8}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 17, "y" : 14}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 17, "y" : 20}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 17, "y" : 26}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 23, "y" : 8}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 23, "y" : 14}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 23, "y" : 20}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 23, "y" : 26}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 29, "y" : 8}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 29, "y" : 14}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 29, "y" : 20}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+		{"position" : {"x" : 29, "y" : 26}, "rotation" : 0, "name" : "compute_chiplet_4phys"},
+
+		{"position" : {"x" : 0, "y" : 8}, "rotation" : 0, "name" : "memory_chiplet_1phy"},
+		{"position" : {"x" : 0, "y" : 14}, "rotation" : 0, "name" : "memory_chiplet_1phy"},
+		{"position" : {"x" : 0, "y" : 20}, "rotation" : 0, "name" : "memory_chiplet_1phy"},
+		{"position" : {"x" : 0, "y" : 26}, "rotation" : 0, "name" : "memory_chiplet_1phy"},
+		{"position" : {"x" : 35, "y" : 8}, "rotation" : 180, "name" : "memory_chiplet_1phy"},
+		{"position" : {"x" : 35, "y" : 14}, "rotation" : 180, "name" : "memory_chiplet_1phy"},
+		{"position" : {"x" : 35, "y" : 20}, "rotation" : 180, "name" : "memory_chiplet_1phy"},
+		{"position" : {"x" : 35, "y" : 26}, "rotation" : 180, "name" : "memory_chiplet_1phy"},
+
+		{"position" : {"x" : 1, "y" : -1}, "rotation" : 180, "name" : "io_chiplet_2phys"},
+		{"position" : {"x" : 12, "y" : -1}, "rotation" : 180, "name" : "io_chiplet_2phys"},
+		{"position" : {"x" : 23, "y" : -1}, "rotation" : 180, "name" : "io_chiplet_2phys"},
+		{"position" : {"x" : 34, "y" : -1}, "rotation" : 180, "name" : "io_chiplet_2phys"}
+	],
+	"interposer_routers" : [
+		{"position" : {"x" : 10, "y" : 7}, "ports" : 3},
+		{"position" : {"x" : 13, "y" : 7}, "ports" : 3},
+		{"position" : {"x" : 32, "y" : 7}, "ports" : 3},
+		{"position" : {"x" : 35, "y" : 7}, "ports" : 3}
+	]
+}

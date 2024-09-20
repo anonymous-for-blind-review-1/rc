@@ -1,0 +1,10 @@
+[
+	{"injection_cycle" : 0, "source_chiplet" : 0, "source_unit" : 0, "destination_chiplet" : 0, "destination_unit" : 0, "size_in_flits" : 4, "reverse_dependencies" : []},
+	{"injection_cycle" : 1, "source_chiplet" : 0, "source_unit" : 0, "destination_chiplet" : 0, "destination_unit" : 0, "size_in_flits" : 4, "reverse_dependencies" : []},
+	{"injection_cycle" : 2, "source_chiplet" : 0, "source_unit" : 0, "destination_chiplet" : 0, "destination_unit" : 0, "size_in_flits" : 4, "reverse_dependencies" : []},
+	{"injection_cycle" : 3, "source_chiplet" : 0, "source_unit" : 0, "destination_chiplet" : 0, "destination_unit" : 0, "size_in_flits" : 4, "reverse_dependencies" : []},
+	{"injection_cycle" : 4, "source_chiplet" : 0, "source_unit" : 0, "destination_chiplet" : 0, "destination_unit" : 0, "size_in_flits" : 4, "reverse_dependencies" : []},
+	{"injection_cycle" : 5, "source_chiplet" : 0, "source_unit" : 0, "destination_chiplet" : 0, "destination_unit" : 0, "size_in_flits" : 4, "reverse_dependencies" : []},
+	{"injection_cycle" : 6, "source_chiplet" : 0, "source_unit" : 0, "destination_chiplet" : 0, "destination_unit" : 0, "size_in_flits" : 4, "reverse_dependencies" : []},
+	{"injection_cycle" : 7, "source_chiplet" : 0, "source_unit" : 0, "destination_chiplet" : 0, "destination_unit" : 0, "size_in_flits" : 4, "reverse_dependencies" : []}
+]
